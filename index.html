@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="head">
+      <input type="text" id="inpt1" readonly /><br /><input type="text" placeholder="Enter number here..." id="inpt2" />
+    </div>
+    <div class="numpad">
+      <button class="num" id="clear">clear</button>
+      <button class="num" id="backspace"><i class="fas fa-backspace"></i></button>
+      <button class="num" id="decimalSign" >.</button>
+      <button class="num" id="num0" onclick="addNumber(0);">0</button> <button class="num" id="minusSign">-</button>
+      <button class="num" id="plusSign">+</button>
+      <button class="num" id="num1" onclick="addNumber(1);">1</button> <button class="num" id="num2"
+        onclick="addNumber(2);">2</button> <button class="num" id="num3" onclick="addNumber(3);">3</button><button
+        class="num" id="divideSign">/</button>
+      <button class="num" id="num4" onclick="addNumber(4);">4</button>
+      <button class="num" id="num5" onclick="addNumber(5);">5</button> <button class="num" id="num6"
+        onclick="addNumber(6);">6</button> <button class="num" id="multiSign">x</button>
+      <button class="num" id="num7" onclick="addNumber(7);">7</button>
+      <button class="num" id="num8" onclick="addNumber(8);">8</button>
+      <button class="num" id="num9" onclick="addNumber(9);">9</button>
+      <button class="num" id="equalSign">=</button>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+</body>
+
+</html>
